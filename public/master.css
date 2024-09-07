@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	background: #444;
+}
+
+h1, h2, h3, h4, h5 {
+	padding: 0;
+	margin: 0;
+	line-height: 2em;
+	color: #58160d;
+}
+
+span, p, li {
+	font-size: 12px;
+	margin: 0px;
+}
+
+img {
+	max-width: 100%;
+	min-width: 50%;
+	margin-top: 10px;
+}
+
+content {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.main {
+	margin-top: -20px;
+	min-height: 100vh;
+	font-family: serif;
+	width: 80vw;
+	max-width: 1300px;
+	@media (max-width: 768px) {
+		width: 100%;
+	}
+}
+
+.double-columns{
+	columns: 2 240px;
+}
+
+.page{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	background: #e6e3de;
+
+	border-style: solid;
+	border-color: #d4b05d;
+	border-width: 0 0 2px 0;
+
+	@media (max-width: 480px) {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+.block {
+
+	min-height: 400px;
+}
+
+.block, .subblock, .paragraph {
+	padding-left: 10px;
+	padding-right: 10px;
+
+	@media (max-width: 480px) {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+.subblock-header {
+	border-style: solid;
+	border-color: #d4b05d;
+	border-width: 0 0 2px 0;
+}
+
+.block-header {
+	border-style: solid;
+	border-color: #d4b05d;
+	border-width: 0 0 2px 0;
+}
+
+.action {
+	margin-top: 10px;
+	padding: 5px 15px;
+	border: 1px solid black;
+}
+
+.person {
+	margin-top: 10px;
+	padding: 5px 15px;
+
+	background: #d6d6da;
+}
+
+.mob {
+	margin-top: 10px;
+	padding: 5px;
+
+
+	.short-description {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-style: italic;
+	}
+	.aspect-description {
+		font-size: 16px;
+		.name {
+			font-weight: 600;
+		}
+	}
+	.chars {
+		display: flex;
+		.char {
+			margin: 5px;
+		}
+	}
+
+	.actions {
+		margin-top: 10px;
+		border: 0px solid #58160d;
+		border-width: 2px 0 0 0;
+	}
+}
+
+.additional {
+	margin-top: 10px;
+	padding: 5px;
+
+	background: #f9e9c4;
+
+	border-style: solid;
+	border-width: 0 1px 0 1px;
+}
+
+.paragraph {
+	text-indent: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.speech {
+	margin-bottom: 1em;
+}
